@@ -233,7 +233,7 @@
     </div>
   </section>
 
-<!-- CONTACT -->
+<!-- Contact -->
   <section class="contact py-5" id="contact">
     <div class="container">
       <div class="d-flex flex-column align-items-center">
@@ -250,19 +250,21 @@
         </div>
         <div class="col-lg-6 col-12">
           <div class="contact-form">
-            <form action="mailto:palyncakes@gmail.com" method="get" target="_top">
+           <!-- <form action="mailto:palyncakes@gmail.com" method="get" target="_top">-->
+             <form id="contact-form" method="post" action="">
               <div class="row">
                 <div class="col-lg-6 col-12">
-                  <input type="text" class="form-control" name="name" placeholder="Your name" id="name">
+                  <input type="text" class="form-control" name="name" placeholder="Your name" id="name" required>
                 </div>
                 <div class="col-lg-6 col-12">
                   <input type="email" class="form-control" name="email" placeholder="Email" id="email">
                 </div>
                 <div class="col-12">
-                  <textarea name="body" rows="6" class="form-control" name="body" placeholder="Message" id="body"></textarea>
+                  <textarea name="body" rows="6" class="form-control" name="body" placeholder="Message" id="body" required>
+                  </textarea>
                 </div>
                 <div class="ml-lg-auto col-lg-5 col-12">
-                  <input type="submit" class="form-control submit-btn" name="send" value="Send Button" id="send">
+                  <input type="submit" class="form-control submit-btn" name="send" value="Send Message" id="send">
                 </div>
               </div>
             </form>
@@ -272,7 +274,7 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- Footer -->
   <footer class="footer py-5">
     <div class="container">
       <div class="row">
